@@ -1,0 +1,13 @@
+pandas
+numpy
+sqlalchemy
+scikit-learn
+ydata-profiling
+seaborn
+matplotlib
+mlflow
+requests
+streamlit
+dagshub
+flask
+joblib
