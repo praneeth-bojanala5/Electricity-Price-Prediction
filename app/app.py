@@ -5,8 +5,12 @@ import joblib
 app = Flask(__name__)
 
 # Load the pre-trained model and preprocessor
-model = joblib.load('model.pkl')
-preprocessor = joblib.load('preprocessor.pkl')
+model = joblib.load('model/model.pkl')
+preprocessor = joblib.load('model/preprocessor.pkl')
+
+@app.route('/')
+def home():
+    return "Welcome to the Electricity Price Prediction API!"
 
 @app.route('/predict', methods=['POST'])
 def predict():
