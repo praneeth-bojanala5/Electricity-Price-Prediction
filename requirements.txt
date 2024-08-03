@@ -1,0 +1,12 @@
+flask
+pandas
+gunicorn
+scikit-learn
+joblib
+mlflow
+requests
+urllib3
+streamlit
+sqlalchemy
+ydata-profiling
+numpy

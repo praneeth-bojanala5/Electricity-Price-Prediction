@@ -127,6 +127,8 @@ celerybeat.pid
 env/
 venv/
 ENV/
+eppenv/
+ssh/
 env.bak/
 venv.bak/
 
